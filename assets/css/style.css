@@ -72,7 +72,7 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width : 100%;
-    left: 0%;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -112,7 +112,7 @@ main {
 
 #cover-text {
     /* final rgb value sets the opacity so it is semi-transperent (0.7) */
-    background-color: rgb(241, 109, 107, 0.7);
+    background-color: rgba(241, 109, 107, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -206,13 +206,13 @@ main {
     padding: 0 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
 #circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
